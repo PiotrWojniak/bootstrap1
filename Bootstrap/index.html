@@ -33,7 +33,7 @@
                     <li class="active nav-itenm mr2"><a class="nav-link" href="/">Home</a></li>
                     <li class="nav-itenm mr2"><a class="nav-link" href="/about">About</a></li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink role="button" aria-haspopup="true" aria-expanded="false">Whiskeys</a>
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink role=" button aria-haspopup="true" aria-expanded="false">Whiskeys</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="#">Irish</a>
                             <a class="dropdown-item" href="#">Scotch</a>
@@ -70,11 +70,13 @@
     </div>
     
         <!-- Quotes -->
-    <div class="container quotes-container">
+    <div class="container-wrapper">
+        <div class="container quotes-container content-container">
         <section class="quotes">
             <div class="row">
-                <div class="col-12 my-5">
+                <div class="col-12 page-header">
                     <h2 class="text-uppercase">Quotes:</h2>
+                    <hr class="block-divider block-divider--short">
                 </div>
             </div>
             <div class="row">
@@ -94,7 +96,7 @@
                 <div class="col-12 col-md-6">
                     <div class="media">
                         <div class="d-none d-sm-block">
-                                img src="https://github.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4/blob/master/03-Components/02-core_components-part-2/images/guy-image.png?raw=true" class="rounded-circle mr-3" height="100">
+                                <img src="https://github.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4/blob/master/03-Components/02-core_components-part-2/images/guy-image.png?raw=true" class="rounded-circle mr-3" height="100">
                         </div>
                         <div class="media-body">
                             <blockquote class="quote">
@@ -107,11 +109,13 @@
             </div>
         </section>
     <!-- /.quotes -->
+        </div>
     </div>
-    <div class="container table-container">
+    <div class="container table-container content-container">
         <!-- Table -->
-        <section class="monthly favorites my-5">
+        <section class="monthly favorites page-header">
             <h2 class="text-uppercase text-center">monthly favorites</h2>
+            <hr class="block-divider block-divider--short">
             <h3 class="text-uppercase text-center">top 5 whiskey</h3>
             <table class="table table-dark">
                 <thead>
@@ -152,32 +156,34 @@
         </section>
         <!-- /.Table -->
     </div>
-    <div class="container features-container">
-        <!-- Features -->
+    <!-- Features -->
+    <div class="container-wrapper container-wrapper--red">
+        <div class="container features-container content-container">   
         <section class="features">
             <div class="row">
-                <div class="col-12 my-5">
+                <div class="col-12 page-header">
                     <h2 class="text-uppercase">Features:</h2>
+                    <hr class="block-divider block-divider--short block-divider--white">
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 col-md-6 cal-lg-4">
                     <div class="feature">
-                        <h3><i class="fas fa-gift d-none d-sm-inline"></i> Feature 1 <span class="badge badge-success">NEW!</span></h3>
+                        <h3><i class="fas fa-gift d-none d-sm-block"></i> Feature 1 <span class="badge badge-success">NEW!</span></h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <p><a class="btn btn-sm btn-default" href="">Read More</a></p>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 cal-lg-4">
                     <div class="feature">
-                        <h3><i class="fas fa-credit-card d-none d-sm-inline"></i> Feature 2</h3>
+                        <h3><i class="fas fa-credit-card d-none d-sm-block"></i> Feature 2</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <p><a class="btn btn-sm btn-default" href="">Read More</a></p>
                     </div>
                 </div>
                 <div class="col-12 d-md-none d-lg-block col-lg-4">
                     <div class="feature">
-                        <h3><i class="fas fa-times-circle d-none d-sm-inline"></i> Feature 3</h3>
+                        <h3><i class="fas fa-times-circle d-none d-sm-block"></i> Feature 3</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <p><a class="btn btn-sm btn-default" href="">Read More</a></p>
                     </div>
@@ -185,6 +191,7 @@
             </div>
         </section>
         <!-- /.features -->
+        </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
